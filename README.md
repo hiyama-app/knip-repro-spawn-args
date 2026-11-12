@@ -8,5 +8,5 @@ npx knip@6.45.1
 
 ```
 Unlisted binaries (1)
-base  index.js
+src  index.js
 ```

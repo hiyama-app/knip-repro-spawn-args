@@ -3,4 +3,4 @@ import { join } from 'node:path';
 
 const script = join(import.meta.dirname, 'task.js');
 
-spawnSync('bun', [script, 'base']);
+spawnSync('bun', [script, 'src']);
