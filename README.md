@@ -1,6 +1,6 @@
 # knip-repro-spawn-args
 
-Minimal reproduction: a literal after a dynamic arg in `spawnSync()` is reported as an unlisted binary.
+Minimal reproduction: `spawnSync('bun', [dynamicPath, 'literal'])` reports the literal as an unlisted binary.
 
 ```sh
 npx knip@6.45.1
